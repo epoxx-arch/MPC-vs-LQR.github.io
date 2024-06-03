@@ -133,7 +133,6 @@
       </video>
       <h2 class="subtitle has-text-centered">
         <p style="text-align: justify;">
-          The simulation video showcases two race cars in a 3D environment controlled using different algorithms: Model Predictive Control (MPC) and Linear Quadratic Regulator (LQR). The blue car, using MPC, optimizes its path over a 1.75-second prediction horizon, adjusting its acceleration and steering every 0.2 seconds to minimize path deviation, while the red car, using LQR, computes control inputs to minimize a cost function penalizing deviations and control efforts. Both cars follow smooth reference paths visualized in yellow, with real-time debug lines indicating their positions. As the cars navigate the track, the blue car’s trajectory is plotted in blue dots, and the red car’s trajectory in red dots, demonstrating smooth and precise path tracking. The simulation continues until each car reaches its goal within a 0.2-meter threshold, culminating in a plot that compares the tracking performance of both control strategies, illustrating the effectiveness of MPC and LQR in autonomous vehicle path following.
         </p>
       </h2>
     </div>
@@ -143,20 +142,19 @@
 
 
 <!-- Paper abstract -->
-<!--<section class="section hero is-light">
+<section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">DESCRIPTION</h2>
         <div class="content has-text-justified">
           <p style="text-align: justify;">
-            Recent advancements in assistive robotic systems address the challenges faced by individuals with severe speech and motor impairment (SSMI), caused by neuro-motor disabilities such as ALS (Amyotrophic Lateral Sclerosis) and Cerebral Palsy, which often hinder natural interactions and object manipulation, requiring dependence on caretakers for basic tasks. For the rehabilitation of individuals with motor impairments, robotic manipulators offer a method for practicing grasping, holding, and manipulating objects, thereby promoting motor skill improvement. Block printing is employed to create a notion of self-independence and to aid in rehabilitation through vocational training. Many challenges in block and fabric printing, such as unaligned prints, inconsistent dyeing, and difficult-to-grasp print holders, make the task physically demanding and monotonous, inhibiting natural creativity. The proposed system integrates a video see-through eye gaze controlled graphical user interface for operating a robotic arm for block printing, along with an Adaptive Stamp Localization Algorithm (ASLA) to determine stamp printing locations. Safety is crucial, particularly in educational settings where students with SSMI may utilize robot manipulators. To ensure the safety of the end user, the system generates optimal obstacle-avoiding trajectories using various path planning algorithms. The Dynamic A* algorithm is specifically chosen for its capability to maintain a minimum safe distance, averaging 6.084 cm, between the robot and obstacles while prioritizing the shortest path to the printing location. A study encompassing 11 individuals (5 individuals with SSMI and 6 able-bodied participants) demonstrated the system's safety and usability across all users, with task completion on average achieved within 2 minutes. With practice, users became more familiar with the system, leading to a 29.41% decrease in task completion time.
-          </p>
+            The simulation video showcases two race cars in a 3D environment controlled using different algorithms: Model Predictive Control (MPC) and Linear Quadratic Regulator (LQR). The black car, using MPC, optimizes its path over a 1.75-second prediction horizon, adjusting its acceleration and steering every 0.2 seconds to minimize path deviation, while the white car, using LQR, computes control inputs to minimize a cost function penalizing deviations and control efforts. Both cars follow smooth reference paths visualized in yellow, with real-time debug lines indicating their positions. As the cars navigate the track, the black car’s trajectory is plotted in blue lines, and the white car’s trajectory in red lines, demonstrating smooth and precise path tracking. The simulation continues until each car reaches its goal within a 0.2-meter threshold, culminating in a plot that compares the tracking performance of both control strategies, illustrating the effectiveness of MPC and LQR in autonomous vehicle path following.
         </div>
       </div>
     </div>
   </div>
-</section>-->
+</section>
 <!-- End paper abstract -->
 
 
@@ -170,7 +168,7 @@
         <img src="static/images/LQR vs MPC.png" alt="MY ALT TEXT" width="1024" height="768"/>
         <h2 class="subtitle has-text-centered">
           <p style="text-align: justify;">
-            The proposed assistive technology system features a video see-through interface designed to control a robotic arm using eye gaze for stamp printing tasks. The UI facilitates stamp design selection, printing location choice, and real-time feedback on stamped areas by exploiting a novel Adaptive Stamp Localization Algorithm (ASLA), enhancing user autonomy. Path planning algorithms, along with upper limb segmentation using instance segmentation models, are utilized to generate obstacle-free trajectories to the printing locations, mitigating interference from hand and forearm.
+            
           </p>
         </h2>
       </div>
@@ -195,7 +193,7 @@
         </video>
         <h2 class="subtitle has-text-centered">
           <p style="text-align: justify;">
-            Upon detecting a stamp presence within the bounding box of a button representing a printing location among the five designated regions, the button's bounding box changes to red, serving as a visual cue for users. This visual feedback aids users in recognizing existing stamps within the UI interface. Additionally, the system streamlines user interactions by calculating the Euclidean distance between clicked buttons and nearby enabled printing locations. This automated selection mechanism ensures that even if already printed location is chosen, the nearest enabled printing location is automatically chosen as goal location for trajectory planning of the robot and thus enhancing user efficiency.
+            
           </p>
         </h2>
       </div>
