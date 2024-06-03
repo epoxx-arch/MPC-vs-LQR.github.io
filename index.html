@@ -133,7 +133,7 @@
       </video>
       <h2 class="subtitle has-text-centered">
         <p style="text-align: justify;">
-          The proposed method aims to bridge the mobility gap for individuals with Severe Speech and Motor Impairment (SSMI). This is achieved through the deployment of a safe and intelligent robotic arm, which users can control using their eye-gaze.
+          The simulation video showcases two race cars in a 3D environment controlled using different algorithms: Model Predictive Control (MPC) and Linear Quadratic Regulator (LQR). The blue car, using MPC, optimizes its path over a 1.75-second prediction horizon, adjusting its acceleration and steering every 0.2 seconds to minimize path deviation, while the red car, using LQR, computes control inputs to minimize a cost function penalizing deviations and control efforts. Both cars follow smooth reference paths visualized in yellow, with real-time debug lines indicating their positions. As the cars navigate the track, the blue car’s trajectory is plotted in blue dots, and the red car’s trajectory in red dots, demonstrating smooth and precise path tracking. The simulation continues until each car reaches its goal within a 0.2-meter threshold, culminating in a plot that compares the tracking performance of both control strategies, illustrating the effectiveness of MPC and LQR in autonomous vehicle path following.
         </p>
       </h2>
     </div>
@@ -164,7 +164,7 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Overview of the Proposed System</h2>
+      <h2 class="title is-3 has-text-centered">RESULTS</h2>
       <div class="image-container has-text-centered">-->
         <!-- Your image here with reduced dimensions -->
         <img src="static/images/LQR vs MPC.png" alt="MY ALT TEXT" width="1024" height="768"/>
@@ -182,15 +182,15 @@
 
 
 <!-- Single Video Section -->
-<!--<section class="hero is-small">
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3 has-text-centered">Adaptive Stamp Localization Algorithm</h2>
-      <div class="image-container has-text-centered">-->
+      <h2 class="title is-3 has-text-centered">Additional Results</h2>
+      <div class="image-container has-text-centered">
         <!-- Your image here with reduced dimensions -->
-        <!--<video poster="" id="video1" autoplay controls muted loop height="50%">-->
+        <video poster="" id="video1" autoplay controls muted loop height="50%">
           <!-- Your video file here -->
-          <!--<source src="static/videos/ASLA.mp4"
+          <source src="static/videos/MPC sim.mp4"
           type="video/mp4">
         </video>
         <h2 class="subtitle has-text-centered">
@@ -201,7 +201,7 @@
       </div>
     </div>
   </div>
-</section>-->
+</section>
 <!-- End Single Video Section -->
 
 
