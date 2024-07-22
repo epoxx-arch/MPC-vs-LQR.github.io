@@ -25,7 +25,7 @@ Racing car model is from: *https://github.com/erwincoumans/pybullet_robots*.
 
 ![](img/f10.png)
 
-![](img/MPCsim.gif)
+![](img/LQRvsMPC.gif)
 
 Additional Results:
 
