@@ -29,7 +29,7 @@ Racing car model is from: *https://github.com/erwincoumans/pybullet_robots*.
 
 Additional Results:
 
-![](static/videos/LQR vs MPC.mp4)
+![](img/LQRvsMPC.png)
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
