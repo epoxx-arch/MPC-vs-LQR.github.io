@@ -19,6 +19,18 @@ In both cases the script will promt the user for `enter` before starting the dem
 
 The settings for tuning the MPC controller are in the **[mpc_config](./mpc_pybullet_demo/mpcpy/mpc_config.py)** class.
 
+### Results
+
+Racing car model is from: *https://github.com/erwincoumans/pybullet_robots*.
+
+![](img/f10.png)
+
+Results:
+
+![](static/images/LQR vs MPC.png)
+
+![](static/videos/LQR vs MPC.mp4)
+
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
 
